@@ -275,8 +275,8 @@ def create_meta_annotaions(data_root='data/ref-davis', output_root='data/ref-dav
         json.dump(val_meta, out)
 
 if __name__ == '__main__':
-    data_root = "/data/Dataset/ref-davis"
-    output_root = "/data/Dataset/ref-davis"
+    data_root = "data/ref-davis"
+    output_root = "data/ref-davis"
     print("Converting ref-davis to ref-youtube-vos format....")
     mv_images_to_folder(data_root, output_root)
     create_meta_expressions(data_root, output_root)
